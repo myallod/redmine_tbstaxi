@@ -11,5 +11,9 @@ Redmine::Plugin.register :redmine_tbstaxi do
   Rails.configuration.to_prepare do
     require 'mail_handler_patch'
     MailHandler.send :include, MailHandlerPatch
+
+    #Remove statuses #1057
+    require 'mailer_patch'
+    Mailer.send :include, MailerPatch
   end
 end
