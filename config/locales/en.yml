@@ -1,3 +1,6 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
+  allowed_login: Login must be in the format of the first letter of the First name and fully Last name, in one piece, in English, in lower case
+  allowed_firstname: First name must be in Russian
+  allowed_lastname: Last name must be in Russian

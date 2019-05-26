@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+ru:
+  # my_label: "My label"
+  allowed_login: Логин должен быть в формате первая буква имени и полностью фамилия, слитно, на английском языке, в нижнем регистре
+  allowed_firstname: Имя должно быть на русском языке
+  allowed_lastname: Фамилия должна быть на русском языке
